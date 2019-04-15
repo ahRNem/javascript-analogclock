@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Analog Clock</title>
+  <link rel="stylesheet" href="clock.css">
+  <script src="clock.js"></script>
 </head>
 <body onload="updateTime()">
   <svg id="clock" viewBox="0 0 100 100" width="500" height="500">
@@ -20,13 +22,11 @@
     </defs>
 
     <circle id="face" cx="50" cy="50" r="45" />
-
-
+    
     <g id="copy">
       <text x="37" y="65">ahRNem</text>
       <text x="40" y="71">CLOCK</text>
     </g>
-
 
     <g id="ticks">
       <line x1='50' y1='5.000' x2='50.00' y2='12.00' />
