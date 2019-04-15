@@ -1,0 +1,68 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #clock {
+      stroke: black;
+      stroke-linecap: round;
+      fill: #c2dae4;
+    }
+
+    #face {
+      stroke-width: 3px;
+    }
+
+    #ticks {
+      stroke-width: 2;
+    }
+
+    #hourhand {
+      stroke-width: 5px;
+    }
+
+    #minutehand {
+      stroke-width: 3px;
+    }
+
+    #secondshand {
+      stroke: #440000;
+    }
+    
+    #numbersBig {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 7pt;
+      font-weight: bold;
+      text-anchor: middle;
+      stroke: 1;
+      fill: rgb(0, 0, 0);
+    }
+
+    #numbersLittle {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 5pt;
+      font-weight: bold;
+      text-anchor: middle;
+      stroke: none;
+      fill: rgb(0, 0, 0);
+    }
+
+    #makeup {
+      fill: #3cd1d6;
+    }
+
+    #copy {
+      font-family: "Open Sans", sans-serif;
+      font-size: 5pt;
+      opacity: 0.75;
+      stroke: none;
+      fill: #000000;
+    }
